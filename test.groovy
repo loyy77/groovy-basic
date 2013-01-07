@@ -1,3 +1,7 @@
+/*
+  测试groovy的静态编译和一般方式的速度差异
+*/
+
 @Grab('com.googlecode.gbench:gbench:0.3.0-groovy-2.0')
 import gbench.BenchmarkBuilder
 import groovy.transform.CompileStatic
